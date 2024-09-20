@@ -30,6 +30,7 @@ Plug 'https://github.com/ap/vim-css-color'
 Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'https://github.com/tc50cal/vim-terminal'
 Plug 'vimsence/vimsence'
+Plug 'https://github.com/42Paris/42header'
 
 call plug#end()
 
@@ -39,6 +40,9 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
+
+let g:user42 = 'ehosta'
+let g:mail42 = 'ehosta@student.42lyon.fr'
 
 " let g:vimsence_client_id = '1146145475683164273'
 " let g:vimsence_small_text = 'Vim'
